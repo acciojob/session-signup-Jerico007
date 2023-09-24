@@ -20,7 +20,7 @@ form.addEventListener("submit", (e) => {
         val.id != "confirm-password" &&
         val.id != "submit"
       ) {
-        sessionStorage.setItem(val.id, val.value);
+        window.sessionStorage.setItem(val.id, val.value);
 		
       }
 	  val.value = "";
