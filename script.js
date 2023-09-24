@@ -2,7 +2,7 @@
 
 
 //Form to extract data
-let form = document.getElementsByTagName("form")[0];
+let form = document.getElementsByTagName("signup-form");
 
 // Checking pass validity on btn click
 form.addEventListener("submit", (e) => {
